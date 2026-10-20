@@ -1,0 +1,124 @@
+{
+  "approval_status": "STUDENT JUDGMENT BASE-CASE PROPOSAL — implemented for transparent model testing; not a sourced forecast, investment recommendation, or final approval.",
+  "currency": "USD",
+  "monetary_units": "USD millions, except per-share values and percentages",
+  "revenue_growth": [0.0, 0.01, 0.02, 0.025, 0.03],
+  "gross_margin": [0.685, 0.6875, 0.69, 0.6925, 0.695],
+  "operating_expense_pct_revenue": [0.61, 0.605, 0.6, 0.595, 0.59],
+  "interest_expense": [542.6, 542.6, 542.6, 542.6, 542.6],
+  "non_operating_income_expense": [0.0, 0.0, 0.0, 0.0, 0.0],
+  "tax_rate": [0.26, 0.26, 0.26, 0.26, 0.26],
+  "accounts_receivable_pct_revenue": [0.0344, 0.0344, 0.0344, 0.0344, 0.0344],
+  "inventory_pct_cost_of_sales": [0.1875, 0.1875, 0.1875, 0.1875, 0.1875],
+  "other_current_assets_pct_revenue": [0.0122, 0.0122, 0.0122, 0.0122, 0.0122],
+  "accounts_payable_pct_cost_of_sales": [0.1589, 0.1589, 0.1589, 0.1589, 0.1589],
+  "accrued_liabilities_pct_operating_expenses": [0.1033, 0.1033, 0.1033, 0.1033, 0.1033],
+  "capex_pct_revenue": [0.062, 0.06, 0.058, 0.056, 0.055],
+  "depreciation_pct_beginning_net_ppe": [0.205, 0.2025, 0.2, 0.1975, 0.195],
+  "short_term_investments": [160.5, 160.5, 160.5, 160.5, 160.5],
+  "other_noncurrent_assets": [16143.9, 16143.9, 16143.9, 16143.9, 16143.9],
+  "other_liabilities": [19821.6, 19821.6, 19821.6, 19821.6, 19821.6],
+  "net_debt_issuance": [0.0, 0.0, 0.0, 0.0, 0.0],
+  "dividends": [2771.4, 2771.4, 2771.4, 2771.4, 2771.4],
+  "financing_policy": {
+    "minimum_cash": 1000.0,
+    "maximum_revolver_draw": 3000.0,
+    "interest_rate": 0.05,
+    "interest_starts_next_year": true,
+    "mechanism": "Automatic year-end draw on the disclosed 2025 revolving credit facility/commercial-paper backstop only to restore cash to the stated floor. No assumed accordion, equity issuance, capex reduction, or dividend reduction."
+  },
+  "operating_drivers": {
+    "enabled": false,
+    "company_operated": {"transaction_growth": [null, null, null, null, null], "average_ticket_growth": [null, null, null, null, null], "net_store_growth": [null, null, null, null, null]},
+    "licensed_revenue_growth": [null, null, null, null, null],
+    "other_revenue_growth": [null, null, null, null, null],
+    "geographic_mix": {"Americas": [null, null, null, null, null], "International": [null, null, null, null, null], "China_Asia_Pacific": [null, null, null, null, null]}
+  },
+  "valuation": {
+    "wacc": 0.09,
+    "terminal_growth": 0.025,
+    "cash": 3449.8,
+    "short_term_investments": 160.5,
+    "debt": 13278.6,
+    "lease_obligations": 9155.5,
+    "noncontrolling_interest": 7.2,
+    "other_material_claims": 0.0,
+    "other_non_operating_assets": 313.2,
+    "common_shares_outstanding": 1140.0
+  },
+  "decision_analysis": {
+    "cases": {
+      "low": {"overrides": {"revenue_growth": [-0.02, 0.0, 0.01, 0.015, 0.02], "gross_margin": [0.68, 0.6825, 0.685, 0.6875, 0.69], "operating_expense_pct_revenue": [0.62, 0.615, 0.61, 0.605, 0.6], "capex_pct_revenue": [0.065, 0.063, 0.061, 0.059, 0.058]}},
+      "base": {"overrides": {}},
+      "high": {"overrides": {"revenue_growth": [0.03, 0.035, 0.04, 0.04, 0.04], "gross_margin": [0.69, 0.695, 0.7, 0.705, 0.71], "operating_expense_pct_revenue": [0.605, 0.595, 0.585, 0.58, 0.575], "capex_pct_revenue": [0.06, 0.058, 0.056, 0.054, 0.052]}}
+    },
+    "one_at_a_time": [{"driver": "capex_pct_revenue", "low": [0.0558, 0.054, 0.0522, 0.0504, 0.0495], "high": [0.0682, 0.066, 0.0638, 0.0616, 0.0605]}],
+    "wacc_values": [0.08, 0.09, 0.1],
+    "terminal_growth_values": [0.02, 0.025, 0.03],
+    "market_implied_enterprise_value": 130089.6,
+    "market_implied_enterprise_value_status": "PROVISIONAL — derived from the unresolved Yahoo Finance $97.87 regular-close observation and July 23, 2026 basic shares; do not use for a final market-price-dependent decision."
+  },
+  "reporting": {
+    "decision_user": "Hypothetical buy-side long-only U.S. equity fund investment committee",
+    "as_of_date": "2026-10-19",
+    "source_cutoff": "Public information available by U.S. market close, 4:00 PM Eastern Time, on 2026-10-19",
+    "action": "No final committee action — draft model output only; market-price evidence remains unresolved.",
+    "conditions": "Use only after the student reviews all forecast judgments and resolves the conflict in the dated market-price evidence.",
+    "reversal_trigger": "Any failure of reconciliation, material change in primary-source operating evidence, or resolution of the dated-price conflict that changes the comparison basis.",
+    "limitations": "All forecast and valuation parameters are student judgments. The market price and market-implied EV are provisional; valuation-date bridge amounts are based on the 2026-06-28 interim balance sheet; basic shares are as of 2026-07-23.",
+    "material_inputs": "See assumptions metadata, docs/assumption-challenge-record.md, and docs/source-ledger.md. Per-share denominator is basic common shares outstanding, not fully diluted shares."
+  },
+  "workbench": {
+    "controls": [
+      {
+        "key": "capex_pct_revenue",
+        "year": 0,
+        "label": "Year 1 capex (% of revenue)",
+        "minimum": 0.06,
+        "maximum": 0.065,
+        "step": 0.0005,
+        "basis": "Approved base 6.20%; envelope spans Year 1 low/high scenario cases 6.50% and 6.00%.",
+        "evidence": "H-CF-CAPEX; H-IS-REV; O-STORE-25",
+        "challenge_reference": "A-005"
+      },
+      {
+        "key": "revenue_growth",
+        "year": 0,
+        "label": "Year 1 revenue growth (%)",
+        "minimum": -0.02,
+        "maximum": 0.03,
+        "step": 0.0025,
+        "basis": "Approved base 0.0%; endpoints match the documented Year 1 low and high causal case assumptions.",
+        "evidence": "H-IS-REV; O-COMP-25; O-STORE-25; O-STORE-LIC-25",
+        "challenge_reference": "A-001"
+      },
+      {
+        "key": "gross_margin",
+        "year": 0,
+        "label": "Year 1 gross margin (% of revenue)",
+        "minimum": 0.68,
+        "maximum": 0.69,
+        "step": 0.0025,
+        "basis": "Approved base 68.50%; endpoints match the documented Year 1 low and high causal case assumptions.",
+        "evidence": "H-IS-REV; H-IS-COS",
+        "challenge_reference": "A-002"
+      }
+    ]
+  },
+  "assumption_metadata": {
+    "revenue_growth": {"units": "% annual growth", "evidence": "O-COMP-25, O-STORE-25, O-STORE-LIC-25, H-IS-REV", "rationale": "STUDENT JUDGMENT: 0.0%, 1.0%, 2.0%, 2.5%, 3.0% starts below the FY2025 negative global comparable-sales result and allows only gradual recovery; direct growth is used because a revenue-component historical split is not verified.", "low_base_high_bounds": "Low [-2.0%, 0.0%, 1.0%, 1.5%, 2.0%]; base [0.0%, 1.0%, 2.0%, 2.5%, 3.0%]; high [3.0%, 3.5%, 4.0%, 4.0%, 4.0%]."},
+    "gross_margin": {"units": "% of revenue", "evidence": "H-IS-REV, H-IS-COS", "rationale": "STUDENT JUDGMENT: base begins near FY2025 reported gross margin and permits only 25bp annual improvement.", "low_base_high_bounds": "Low [68.0%, 68.25%, 68.5%, 68.75%, 69.0%]; base [68.5%, 68.75%, 69.0%, 69.25%, 69.5%]; high [69.0%, 69.5%, 70.0%, 70.5%, 71.0%]."},
+    "operating_expense_pct_revenue": {"units": "% of revenue", "evidence": "H-IS-OPEX, O-COMP-25, O-SEG-25", "rationale": "STUDENT JUDGMENT: base declines 50bp annually from the FY2025 expense ratio; no specific cost-savings fact is assumed.", "low_base_high_bounds": "Low [62.0%, 61.5%, 61.0%, 60.5%, 60.0%]; base [61.0%, 60.5%, 60.0%, 59.5%, 59.0%]; high [60.5%, 59.5%, 58.5%, 58.0%, 57.5%]."},
+    "working_capital": {"units": "% of stated revenue, cost-of-sales, or operating-expense driver", "evidence": "H-BS-AR, H-BS-INV, H-BS-OCA, H-BS-AP, H-BS-ACCR, H-IS-REV, H-IS-COS, H-IS-OPEX", "rationale": "STUDENT JUDGMENT: retain FY2025 derived ratios, rounded, because five-year detailed operating-balance drivers are not otherwise approved.", "low_base_high_bounds": "No scenario variation proposed: AR 3.44% of revenue; inventory 18.75% of cost of sales; other current assets 1.22% of revenue; AP 15.89% of cost of sales; accrued liabilities 10.33% of operating expenses."},
+    "capex_pct_revenue": {"units": "% of revenue", "evidence": "H-CF-CAPEX, H-IS-REV, O-STORE-25", "rationale": "STUDENT JUDGMENT: base moves from the FY2025 capex/revenue ratio toward 5.5%; no store-build program is asserted. Sensitivity is plus/minus 10% of each base percentage, not percentage points.", "low_base_high_bounds": "Low case [6.5%, 6.3%, 6.1%, 5.9%, 5.8%]; base [6.2%, 6.0%, 5.8%, 5.6%, 5.5%]; high [6.0%, 5.8%, 5.6%, 5.4%, 5.2%]. One-at-a-time capex test: 90%/110% of each base percentage."},
+    "depreciation_pct_beginning_net_ppe": {"units": "% of beginning net PP&E", "evidence": "H-CF-DA, H-BS-PPE", "rationale": "STUDENT JUDGMENT: base begins near FY2025 cash-flow D&A divided by net PP&E and modestly declines; D&A add-back is a proxy rather than an asset-life schedule.", "low_base_high_bounds": "Conservative review bounds 19.0% to 21.0%; base [20.5%, 20.25%, 20.0%, 19.75%, 19.5%]."},
+    "tax_rate": {"units": "% of pretax income", "evidence": "H-IS-TAX, H-IS-NI, H-IS-INT, H-IS-NONOP", "rationale": "STUDENT JUDGMENT: 26.0% approximates FY2025 reported tax expense divided by model pretax income; it is not a cash-tax fact.", "low_base_high_bounds": "22.0% / 26.0% / 30.0% for low/base/high tax-rate review; no case override proposed."},
+    "interest_expense": {"units": "USD millions per year", "evidence": "H-IS-INT, V-DEBT-2026Q3", "rationale": "STUDENT JUDGMENT: hold FY2025 interest expense flat while net debt issuance is zero; no rate or maturity forecast is asserted.", "low_base_high_bounds": "Review range $500m to $600m annually; base $542.6m annually."},
+    "non_operating_income_expense": {"units": "USD millions per year; positive is income/gain and negative is expense/loss", "evidence": "H-IS-NONOP, A-014", "rationale": "STUDENT JUDGMENT: historical equity-investee income, asset-sale/divestiture gains, interest income, and other non-operating items are not assumed to recur without separate evidence.", "low_base_high_bounds": "Base is $0.0 for all years; no alternate case entered without separately supported evidence."},
+    "short_term_investments": {"units": "ending balance, USD millions", "evidence": "V-STI-2026Q3", "rationale": "STUDENT JUDGMENT: hold latest eligible interim balance flat and outside operating NWC; this is a timing proxy, not a forecast fact.", "low_base_high_bounds": "Review range $0m to $247.2m; base $160.5m annually."},
+    "other_noncurrent_assets_and_other_liabilities": {"units": "ending balance, USD millions", "evidence": "H-BS-ONCA, H-BS-OL", "rationale": "STUDENT JUDGMENT: hold both FY2025 model aggregates flat. Equal changes are required by the current simplified model to preserve articulation; no component forecast is implied.", "low_base_high_bounds": "No scenario variation proposed pending component-level evidence."},
+    "net_debt_issuance_and_dividends": {"units": "USD millions per year", "evidence": "H-CF-DEBT, H-CF-DIV", "rationale": "STUDENT JUDGMENT: set net debt issuance to zero because the historical cash-flow debt-component sign issue remains unresolved; hold FY2025 cash dividends flat solely as a neutral mechanical assumption.", "low_base_high_bounds": "Debt issuance review range -$1,000m to +$1,000m; dividend review range $0m to $2,771.4m annually; no case override proposed."},
+    "financing_policy": {"units": "USD millions, except interest rate", "evidence": "S-010 Note 8 pp. 22–24 and Liquidity pp. 51–52", "rationale": "STUDENT JUDGMENT: retain a $1,000m minimum cash balance. If pre-financing year-end cash is below that floor, draw only the disclosed $3,000m committed revolver/commercial-paper capacity. Incremental interest begins in the following year at a 5.0% proxy rate; the filing specifies Term SOFR plus a ratings-based margin but not a usable all-in forecast rate. No reduction in dividends or capex is assumed.", "low_base_high_bounds": "Minimum cash $500m / $1,000m / $1,500m; committed draw cap $3,000m; rate review 4.0% / 5.0% / 6.0%. Capacity excess produces a visible failed minimum-cash check rather than an invented funding source."},
+    "valuation_bridge": {"units": "WACC/terminal growth in %; claims/assets in USD millions; common shares in millions", "evidence": "V-CASH-2026Q3, V-STI-2026Q3, V-DEBT-2026Q3, V-LEASE-2026Q3, V-NCI-2026Q3, V-OMC-2026Q3, V-NOA-2026Q3, V-SHARES-2026Q3, V-PRICE-2026-10-19", "rationale": "STUDENT JUDGMENT: 9.0% WACC and 2.5% terminal growth are provisional model parameters, not sourced market facts. Basic shares of 1,140.0m are used. The market-implied EV uses the unresolved Yahoo close only for a clearly labeled reverse-DCF output.", "low_base_high_bounds": "WACC sensitivity 8.0%/9.0%/10.0%; terminal-growth sensitivity 2.0%/2.5%/3.0%."}
+  }
+}

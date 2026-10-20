@@ -1,0 +1,61 @@
+{
+  "status": "VERIFIED HISTORICAL BASE YEAR — FY2025; no forecast assumptions or model outputs",
+  "year": 2025,
+  "currency": "USD",
+  "monetary_units": "USD millions",
+  "source_ledger": "docs/source-ledger.md",
+  "basis": {
+    "net_income": "Net earnings including noncontrolling interests",
+    "equity": "Total deficit, including noncontrolling interests",
+    "sign_convention": "Expenses and cash outflows are positive magnitudes; non_operating_income_expense is positive for income/gains and negative for expense/loss."
+  },
+  "income_statement": {
+    "revenue": 37184.4,
+    "cost_of_sales": 11658.2,
+    "operating_expenses": 22837.4,
+    "interest_expense": 542.6,
+    "non_operating_income_expense": 361.1,
+    "income_tax_expense": 650.6,
+    "net_income": 1856.7
+  },
+  "balance_sheet": {
+    "cash": 3219.8,
+    "short_term_investments": 247.2,
+    "accounts_receivable": 1277.5,
+    "inventory": 2185.6,
+    "other_current_assets": 452.2,
+    "net_ppe": 8493.5,
+    "other_noncurrent_assets": 16143.9,
+    "accounts_payable": 1852.8,
+    "accrued_liabilities": 2359.7,
+    "other_liabilities": 19821.6,
+    "total_debt": 16074.8,
+    "equity": -8089.2
+  },
+  "cash_flow": {
+    "net_income": 1856.7,
+    "ending_cash": 3219.8
+  },
+  "ledger_ids": {
+    "revenue": "H-IS-REV",
+    "cost_of_sales": "H-IS-COS",
+    "operating_expenses": "H-IS-OPEX",
+    "interest_expense": "H-IS-INT",
+    "non_operating_income_expense": "H-IS-NONOP",
+    "income_tax_expense": "H-IS-TAX",
+    "net_income": "H-IS-NI",
+    "cash": "H-BS-CASH",
+    "short_term_investments": "H-BS-STI",
+    "accounts_receivable": "H-BS-AR",
+    "inventory": "H-BS-INV",
+    "other_current_assets": "H-BS-OCA",
+    "net_ppe": "H-BS-PPE",
+    "other_noncurrent_assets": "H-BS-ONCA",
+    "accounts_payable": "H-BS-AP",
+    "accrued_liabilities": "H-BS-ACCR",
+    "other_liabilities": "H-BS-OL",
+    "total_debt": "H-BS-DEBT",
+    "equity": "H-BS-EQ",
+    "ending_cash": "H-CF-ENDCASH"
+  }
+}
