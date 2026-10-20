@@ -1,0 +1,536 @@
+{
+  "base_year": 2025,
+  "forecast_years": [
+    {
+      "year": 2026,
+      "income_statement": {
+        "revenue": 37184.4,
+        "cost_of_sales": 11713.086,
+        "operating_expenses": 22682.484,
+        "operating_income": 2788.8300000000017,
+        "interest_expense": 542.6,
+        "base_interest_expense": 542.6,
+        "financing_policy_interest": 0.0,
+        "non_operating_income_expense": 0.0,
+        "pretax_income": 2246.230000000002,
+        "income_tax_expense": 584.0198000000005,
+        "net_income": 1662.2102000000014
+      },
+      "balance_sheet": {
+        "cash": 1611.1581976000011,
+        "short_term_investments": 160.5,
+        "accounts_receivable": 1279.14336,
+        "inventory": 2196.203625,
+        "other_current_assets": 453.64968000000005,
+        "net_ppe": 9057.765300000001,
+        "other_noncurrent_assets": 16143.9,
+        "accounts_payable": 1861.2093654,
+        "accrued_liabilities": 2343.1005972000003,
+        "other_liabilities": 19821.6,
+        "total_debt": 16074.8,
+        "equity": -9198.389799999999
+      },
+      "cash_flow": {
+        "net_income": 1662.2102000000014,
+        "depreciation": 1741.1674999999998,
+        "change_in_nwc": 21.886702400000104,
+        "cash_from_operations": 3381.490997600001,
+        "capex": 2305.4328,
+        "change_in_short_term_investments": -86.69999999999999,
+        "cash_from_investing": -2218.7328,
+        "base_net_debt_issuance": 0.0,
+        "financing_policy_draw": 0.0,
+        "net_debt_issuance": 0.0,
+        "dividends": 2771.4,
+        "cash_from_financing": -2771.4,
+        "ending_cash": 1611.1581976000011
+      },
+      "financing_policy": {
+        "minimum_cash": 1000.0,
+        "pre_financing_cash": 1611.1581976000011,
+        "revolver_draw": 0.0,
+        "revolver_draw_balance": 0.0,
+        "remaining_capacity": 3000.0,
+        "minimum_cash_requirement_met": true
+      }
+    },
+    {
+      "year": 2027,
+      "income_statement": {
+        "revenue": 37556.244,
+        "cost_of_sales": 11736.32625,
+        "operating_expenses": 22721.527619999997,
+        "operating_income": 3098.3901300000034,
+        "interest_expense": 542.6,
+        "base_interest_expense": 542.6,
+        "financing_policy_interest": 0.0,
+        "non_operating_income_expense": 0.0,
+        "pretax_income": 2555.7901300000035,
+        "income_tax_expense": 664.5054338000009,
+        "net_income": 1891.2846962000026
+      },
+      "balance_sheet": {
+        "cash": 1000.0,
+        "short_term_investments": 160.5,
+        "accounts_receivable": 1291.9347936,
+        "inventory": 2200.561171875,
+        "other_current_assets": 458.1861768,
+        "net_ppe": 9476.94246675,
+        "other_noncurrent_assets": 16143.9,
+        "accounts_payable": 1864.9022411250003,
+        "accrued_liabilities": 2347.133803146,
+        "other_liabilities": 19821.6,
+        "total_debt": 16776.893668553996,
+        "equity": -10078.505103799997
+      },
+      "cash_flow": {
+        "net_income": 1891.2846962000026,
+        "depreciation": 1834.1974732500003,
+        "change_in_nwc": 13.959395603999837,
+        "cash_from_operations": 3711.522773846003,
+        "capex": 2253.37464,
+        "change_in_short_term_investments": 0.0,
+        "cash_from_investing": -2253.37464,
+        "base_net_debt_issuance": 0.0,
+        "financing_policy_draw": 702.0936685539959,
+        "net_debt_issuance": 702.0936685539959,
+        "dividends": 2771.4,
+        "cash_from_financing": -2069.306331446004,
+        "ending_cash": 1000.0
+      },
+      "financing_policy": {
+        "minimum_cash": 1000.0,
+        "pre_financing_cash": 297.90633144600406,
+        "revolver_draw": 702.0936685539959,
+        "revolver_draw_balance": 702.0936685539959,
+        "remaining_capacity": 2297.906331446004,
+        "minimum_cash_requirement_met": true
+      }
+    },
+    {
+      "year": 2028,
+      "income_statement": {
+        "revenue": 38307.36888,
+        "cost_of_sales": 11875.284352800003,
+        "operating_expenses": 22984.421328,
+        "operating_income": 3447.6631992000002,
+        "interest_expense": 577.7046834276998,
+        "base_interest_expense": 542.6,
+        "financing_policy_interest": 35.1046834276998,
+        "non_operating_income_expense": 0.0,
+        "pretax_income": 2869.9585157723004,
+        "income_tax_expense": 746.1892141007982,
+        "net_income": 2123.769301671502
+      },
+      "balance_sheet": {
+        "cash": 1000.0,
+        "short_term_investments": 160.5,
+        "accounts_receivable": 1317.7734894720002,
+        "inventory": 2226.6158161500007,
+        "other_current_assets": 467.3499003360001,
+        "net_ppe": 9803.381368440001,
+        "other_noncurrent_assets": 16143.9,
+        "accounts_payable": 1886.9826836599207,
+        "accrued_liabilities": 2374.2907231824,
+        "other_liabilities": 19821.6,
+        "total_debt": 17762.782969684173,
+        "equity": -10726.135802128494
+      },
+      "cash_flow": {
+        "net_income": 2123.769301671502,
+        "depreciation": 1895.3884933500003,
+        "change_in_nwc": 11.819701111680843,
+        "cash_from_operations": 4007.3380939098215,
+        "capex": 2221.8273950400003,
+        "change_in_short_term_investments": 0.0,
+        "cash_from_investing": -2221.8273950400003,
+        "base_net_debt_issuance": 0.0,
+        "financing_policy_draw": 985.8893011301789,
+        "net_debt_issuance": 985.8893011301789,
+        "dividends": 2771.4,
+        "cash_from_financing": -1785.5106988698212,
+        "ending_cash": 1000.0
+      },
+      "financing_policy": {
+        "minimum_cash": 1000.0,
+        "pre_financing_cash": 14.110698869821135,
+        "revolver_draw": 985.8893011301789,
+        "revolver_draw_balance": 1687.9829696841748,
+        "remaining_capacity": 1312.0170303158252,
+        "minimum_cash_requirement_met": true
+      }
+    },
+    {
+      "year": 2029,
+      "income_statement": {
+        "revenue": 39265.053102,
+        "cost_of_sales": 12074.003828865,
+        "operating_expenses": 23362.706595689997,
+        "operating_income": 3828.3426774450018,
+        "interest_expense": 626.9991484842087,
+        "base_interest_expense": 542.6,
+        "financing_policy_interest": 84.39914848420875,
+        "non_operating_income_expense": 0.0,
+        "pretax_income": 3201.3435289607933,
+        "income_tax_expense": 832.3493175298063,
+        "net_income": 2368.994211430987
+      },
+      "balance_sheet": {
+        "cash": 1000.0,
+        "short_term_investments": 160.5,
+        "accounts_receivable": 1350.7178267088,
+        "inventory": 2263.8757179121876,
+        "other_current_assets": 479.0336478444,
+        "net_ppe": 10066.0565218851,
+        "other_noncurrent_assets": 16143.9,
+        "accounts_payable": 1918.5592084066486,
+        "accrued_liabilities": 2413.3675913347765,
+        "other_liabilities": 19821.6,
+        "total_debt": 18439.098505306567,
+        "equity": -11128.541590697507
+      },
+      "cash_flow": {
+        "net_income": 2368.994211430987,
+        "depreciation": 1936.1678202669002,
+        "change_in_nwc": 11.234593608282012,
+        "cash_from_operations": 4293.927438089605,
+        "capex": 2198.842973712,
+        "change_in_short_term_investments": 0.0,
+        "cash_from_investing": -2198.842973712,
+        "base_net_debt_issuance": 0.0,
+        "financing_policy_draw": 676.3155356223951,
+        "net_debt_issuance": 676.3155356223951,
+        "dividends": 2771.4,
+        "cash_from_financing": -2095.084464377605,
+        "ending_cash": 1000.0
+      },
+      "financing_policy": {
+        "minimum_cash": 1000.0,
+        "pre_financing_cash": 323.68446437760485,
+        "revolver_draw": 676.3155356223951,
+        "revolver_draw_balance": 2364.29850530657,
+        "remaining_capacity": 635.70149469343,
+        "minimum_cash_requirement_met": true
+      }
+    },
+    {
+      "year": 2030,
+      "income_statement": {
+        "revenue": 40443.00469506,
+        "cost_of_sales": 12335.116431993301,
+        "operating_expenses": 23861.3727700854,
+        "operating_income": 4246.5154929813,
+        "interest_expense": 660.8149252653285,
+        "base_interest_expense": 542.6,
+        "financing_policy_interest": 118.2149252653285,
+        "non_operating_income_expense": 0.0,
+        "pretax_income": 3585.7005677159714,
+        "income_tax_expense": 932.2821476061525,
+        "net_income": 2653.4184201098187
+      },
+      "balance_sheet": {
+        "cash": 1000.0,
+        "short_term_investments": 160.5,
+        "accounts_receivable": 1391.239361510064,
+        "inventory": 2312.834330998744,
+        "other_current_assets": 493.404657279732,
+        "net_ppe": 10327.540758345805,
+        "other_noncurrent_assets": 16143.9,
+        "accounts_payable": 1960.0500010437358,
+        "accrued_liabilities": 2464.8798071498218,
+        "other_liabilities": 19821.6,
+        "total_debt": 18829.412470528474,
+        "equity": -11246.523170587689
+      },
+      "cash_flow": {
+        "net_income": 2653.4184201098187,
+        "depreciation": 1962.8810217675948,
+        "change_in_nwc": 10.84814887101993,
+        "cash_from_operations": 4605.451293006394,
+        "capex": 2224.3652582283003,
+        "change_in_short_term_investments": 0.0,
+        "cash_from_investing": -2224.3652582283003,
+        "base_net_debt_issuance": 0.0,
+        "financing_policy_draw": 390.3139652219065,
+        "net_debt_issuance": 390.3139652219065,
+        "dividends": 2771.4,
+        "cash_from_financing": -2381.0860347780936,
+        "ending_cash": 1000.0
+      },
+      "financing_policy": {
+        "minimum_cash": 1000.0,
+        "pre_financing_cash": 609.6860347780935,
+        "revolver_draw": 390.3139652219065,
+        "revolver_draw_balance": 2754.6124705284765,
+        "remaining_capacity": 245.38752947152352,
+        "minimum_cash_requirement_met": true
+      }
+    }
+  ],
+  "dcf": {
+    "fcff_forecast": [
+      {
+        "year": 2026,
+        "ebit": 2788.8300000000017,
+        "cash_taxes": 725.0958000000005,
+        "depreciation": 1741.1674999999998,
+        "capex": 2305.4328,
+        "change_in_nwc": 21.886702400000104,
+        "fcff": 1477.582197600001,
+        "discount_factor": 0.9174311926605504,
+        "present_value_fcff": 1355.579997798166
+      },
+      {
+        "year": 2027,
+        "ebit": 3098.3901300000034,
+        "cash_taxes": 805.5814338000009,
+        "depreciation": 1834.1974732500003,
+        "capex": 2253.37464,
+        "change_in_nwc": 13.959395603999837,
+        "fcff": 1859.672133846003,
+        "discount_factor": 0.84167999326656,
+        "present_value_fcff": 1565.248829093513
+      },
+      {
+        "year": 2028,
+        "ebit": 3447.6631992000002,
+        "cash_taxes": 896.3924317920001,
+        "depreciation": 1895.3884933500003,
+        "capex": 2221.8273950400003,
+        "change_in_nwc": 11.819701111680843,
+        "fcff": 2213.0121646063194,
+        "discount_factor": 0.7721834800610642,
+        "present_value_fcff": 1708.8514346831764
+      },
+      {
+        "year": 2029,
+        "ebit": 3828.3426774450018,
+        "cash_taxes": 995.3690961357005,
+        "depreciation": 1936.1678202669002,
+        "capex": 2198.842973712,
+        "change_in_nwc": 11.234593608282012,
+        "fcff": 2559.063834255919,
+        "discount_factor": 0.7084252110651963,
+        "present_value_fcff": 1812.90533691206
+      },
+      {
+        "year": 2030,
+        "ebit": 4246.5154929813,
+        "cash_taxes": 1104.094028175138,
+        "depreciation": 1962.8810217675948,
+        "capex": 2224.3652582283003,
+        "change_in_nwc": 10.84814887101993,
+        "fcff": 2870.089079474436,
+        "discount_factor": 0.6499313862983452,
+        "present_value_fcff": 1865.3609742225617
+      }
+    ],
+    "wacc": 0.09,
+    "terminal_growth": 0.025,
+    "terminal_fcff": 2941.8413064612964,
+    "terminal_value": 45259.09702248148,
+    "present_value_fcff": 8307.946572709478,
+    "present_value_terminal": 29415.3076704327,
+    "enterprise_value": 37723.254243142175,
+    "terminal_value_share_of_enterprise_value": 0.7797659099302175,
+    "enterprise_to_equity_bridge": {
+      "enterprise_value": 37723.254243142175,
+      "cash": 3449.8,
+      "short_term_investments": 160.5,
+      "other_non_operating_assets": 313.2,
+      "debt": 13278.6,
+      "lease_obligations": 9155.5,
+      "noncontrolling_interest": 7.2,
+      "other_material_claims": 0.0,
+      "equity_value": 19205.454243142176,
+      "common_shares_outstanding": 1140.0,
+      "implied_value_per_common_share": 16.846889686966822
+    },
+    "material_inputs": {
+      "valuation": {
+        "wacc": 0.09,
+        "terminal_growth": 0.025,
+        "cash": 3449.8,
+        "short_term_investments": 160.5,
+        "debt": 13278.6,
+        "lease_obligations": 9155.5,
+        "noncontrolling_interest": 7.2,
+        "other_material_claims": 0.0,
+        "other_non_operating_assets": 313.2,
+        "common_shares_outstanding": 1140.0
+      }
+    },
+    "sensitivity_checks": {
+      "higher_wacc_reduces_enterprise_value": true,
+      "higher_terminal_growth_increases_enterprise_value": true
+    }
+  },
+  "financing_policy": {
+    "minimum_cash": 1000.0,
+    "maximum_revolver_draw": 3000.0,
+    "interest_rate": 0.05,
+    "minimum_cash_requirement_met": true,
+    "warning": null
+  },
+  "checks": {
+    "minimum_cash_requirement_met": true
+  },
+  "reporting": {
+    "decision_user": "Hypothetical buy-side long-only U.S. equity fund investment committee",
+    "as_of_date": "2026-10-19",
+    "source_cutoff": "Public information available by U.S. market close, 4:00 PM Eastern Time, on 2026-10-19",
+    "action": "No final committee action \u2014 draft model output only; market-price evidence remains unresolved.",
+    "conditions": "Use only after the student reviews all forecast judgments and resolves the conflict in the dated market-price evidence.",
+    "reversal_trigger": "Any failure of reconciliation, material change in primary-source operating evidence, or resolution of the dated-price conflict that changes the comparison basis.",
+    "limitations": "All forecast and valuation parameters are student judgments. The market price and market-implied EV are provisional; valuation-date bridge amounts are based on the 2026-06-28 interim balance sheet; basic shares are as of 2026-07-23.",
+    "material_inputs": "See assumptions metadata, docs/assumption-challenge-record.md, and docs/source-ledger.md. Per-share denominator is basic common shares outstanding, not fully diluted shares."
+  },
+  "decision_analysis": {
+    "cases": {
+      "low": {
+        "year_5_operating_income": 3429.3905842442364,
+        "year_5_fcff": 2295.103241245672,
+        "enterprise_value": 29809.800774073967,
+        "terminal_value_share": 0.7890802468987843,
+        "implied_value_per_common_share": 9.905263836906986,
+        "minimum_cash_requirement_met": false
+      },
+      "base": {
+        "year_5_operating_income": 4246.5154929813,
+        "year_5_fcff": 2870.089079474436,
+        "enterprise_value": 37723.254243142175,
+        "terminal_value_share": 0.7797659099302175,
+        "implied_value_per_common_share": 16.846889686966822,
+        "minimum_cash_requirement_met": true
+      },
+      "high": {
+        "year_5_operating_income": 6019.662450249678,
+        "year_5_fcff": 4131.731907781685,
+        "enterprise_value": 53687.12498307592,
+        "terminal_value_share": 0.7887511502048715,
+        "implied_value_per_common_share": 30.850285072873618,
+        "minimum_cash_requirement_met": true
+      }
+    },
+    "wacc_terminal_growth_sensitivity": [
+      {
+        "wacc": 0.08,
+        "terminal_growth": 0.02,
+        "year_5_operating_income": 4246.5154929813,
+        "year_5_fcff": 2870.089079474436,
+        "enterprise_value": 41760.26872389497,
+        "terminal_value_share": 0.795174117406138,
+        "implied_value_per_common_share": 20.388130459556994,
+        "minimum_cash_requirement_met": true
+      },
+      {
+        "wacc": 0.08,
+        "terminal_growth": 0.025,
+        "year_5_operating_income": 4246.5154929813,
+        "year_5_fcff": 2870.089079474436,
+        "enterprise_value": 44956.63410813558,
+        "terminal_value_share": 0.8097370039279533,
+        "implied_value_per_common_share": 23.19195974397858,
+        "minimum_cash_requirement_met": true
+      },
+      {
+        "wacc": 0.08,
+        "terminal_growth": 0.03,
+        "year_5_operating_income": 4246.5154929813,
+        "year_5_fcff": 2870.089079474436,
+        "enterprise_value": 48792.27256922431,
+        "terminal_value_share": 0.8246938818725201,
+        "implied_value_per_common_share": 26.556554885284484,
+        "minimum_cash_requirement_met": true
+      },
+      {
+        "wacc": 0.09,
+        "terminal_growth": 0.02,
+        "year_5_operating_income": 4246.5154929813,
+        "year_5_fcff": 2870.089079474436,
+        "enterprise_value": 35488.92076852395,
+        "terminal_value_share": 0.765900275556477,
+        "implied_value_per_common_share": 14.886948042564871,
+        "minimum_cash_requirement_met": true
+      },
+      {
+        "wacc": 0.09,
+        "terminal_growth": 0.025,
+        "year_5_operating_income": 4246.5154929813,
+        "year_5_fcff": 2870.089079474436,
+        "enterprise_value": 37723.254243142175,
+        "terminal_value_share": 0.7797659099302175,
+        "implied_value_per_common_share": 16.846889686966822,
+        "minimum_cash_requirement_met": true
+      },
+      {
+        "wacc": 0.09,
+        "terminal_growth": 0.03,
+        "year_5_operating_income": 4246.5154929813,
+        "year_5_fcff": 2870.089079474436,
+        "enterprise_value": 40329.97663019679,
+        "terminal_value_share": 0.7940007094750221,
+        "implied_value_per_common_share": 19.133488272102447,
+        "minimum_cash_requirement_met": true
+      },
+      {
+        "wacc": 0.1,
+        "terminal_growth": 0.02,
+        "year_5_operating_income": 4246.5154929813,
+        "year_5_fcff": 2870.089079474436,
+        "enterprise_value": 30794.587730149968,
+        "terminal_value_share": 0.7378494212295078,
+        "implied_value_per_common_share": 10.769112043991198,
+        "minimum_cash_requirement_met": true
+      },
+      {
+        "wacc": 0.1,
+        "terminal_growth": 0.025,
+        "year_5_operating_income": 4246.5154929813,
+        "year_5_fcff": 2870.089079474436,
+        "enterprise_value": 32428.17894629779,
+        "terminal_value_share": 0.7510554320726309,
+        "implied_value_per_common_share": 12.202086794998062,
+        "minimum_cash_requirement_met": true
+      },
+      {
+        "wacc": 0.1,
+        "terminal_growth": 0.03,
+        "year_5_operating_income": 4246.5154929813,
+        "year_5_fcff": 2870.089079474436,
+        "enterprise_value": 34295.140336181015,
+        "terminal_value_share": 0.7646074949009388,
+        "implied_value_per_common_share": 13.839772224720189,
+        "minimum_cash_requirement_met": true
+      }
+    ],
+    "one_at_a_time_sensitivities": [
+      {
+        "driver": "capex_pct_revenue",
+        "low": {
+          "year_5_operating_income": 4246.5154929813,
+          "year_5_fcff": 2963.6521324480877,
+          "enterprise_value": 39292.11400686937,
+          "terminal_value_share": 0.7730362312461696,
+          "implied_value_per_common_share": 18.223082462166115,
+          "minimum_cash_requirement_met": true
+        },
+        "high": {
+          "year_5_operating_income": 4246.5154929813,
+          "year_5_fcff": 2776.526026500784,
+          "enterprise_value": 36154.39447941499,
+          "terminal_value_share": 0.7870796350220253,
+          "implied_value_per_common_share": 15.470696911767533,
+          "minimum_cash_requirement_met": false
+        },
+        "per_share_range": -2.752385550398582
+      }
+    ],
+    "driver_ranking_qualification": "Ranking reflects only the approved tested ranges; it is not a probability ranking.",
+    "market_implied_expectation": {
+      "market_implied_enterprise_value": 130089.6,
+      "implied_terminal_growth": 0.07355606504739258
+    },
+    "multiples_vs_dcf_note": "DCF and multiples can disagree because they use different forecasts, discount rates, terminal assumptions, peer selection, capital-structure adjustments, timing conventions, and market pricing. Investigate the traceable inputs rather than force convergence."
+  }
+}
